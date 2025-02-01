@@ -58,5 +58,5 @@ Likes on a video, and download
 ### API
 
 ### High level design
-[diagrams/png/youtube_diagram.excalidraw.png]
+[diagrams/png/youtube_github.excalidraw.png]
 # Document Links:
