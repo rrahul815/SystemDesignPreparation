@@ -5,6 +5,8 @@ This documents the journey of System Design Interview Preparation
 
 # Fundamentals of System Design
 How to approach a system design interview? What are the steps involved in a system design?
+interviewing.io is a great resource for System Design preparation. This site proposes a 3 step formula to approach any system design from first principles even if we do not know anything about the system we need to design.
+
 
 # Components of a System
 Networking components
