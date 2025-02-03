@@ -75,4 +75,34 @@ Likes on a video, and download
 
 ### High level design
 ![High level diagram of YouTube](/diagrams/png/youtube_github.excalidraw.png)
+
+## Designing Slack
+What is Slack? Slack started as a simple communication tool at work, but has evolved into an integrated Work environment for collaboration. Website url: slack.com
+
+### Functional Requirements
+Send messages, files to other users
+Create channels to communicate as a group
+
+
+### Non-functional Requirements
+Scalable
+Fault tolerant
+Low latency to receive messages
+consistency in the order of messages
+
+### Out of scope
+Integrating AI and third party tools and applications
+
+### Estimates
+Support milions of users and send and receive messages.
+Store those messages, in case the user is offline.
+
+### Data
+The main entites will be users,channels,messages
+
+### API
+
+### High level design
+
+
 # Document Links:
