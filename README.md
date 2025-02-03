@@ -107,6 +107,6 @@ API to create user and login will be discussed in detail in other sections.
 ### High level design
 The high level design involves, a user A sending a message to user B and receiving a response back. This message needs to be stored incase the user is not online to receive it.
 
-
+![High level diagram of Slack](/diagrams/png/slack_github.excalidraw.png)
 
 # Document Links:
