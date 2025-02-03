@@ -101,8 +101,12 @@ Store those messages, in case the user is offline.
 The main entites will be users,channels,messages
 
 ### API
+API will be primarily used to sign up and authenticate a user. For bidirectional communication between users, API would not work.
+API to create user and login will be discussed in detail in other sections.
 
 ### High level design
+The high level design involves, a user A sending a message to user B and receiving a response back. This message needs to be stored incase the user is not online to receive it.
+
 
 
 # Document Links:
