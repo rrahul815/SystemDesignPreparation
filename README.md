@@ -10,28 +10,42 @@ interviewing.io is a great resource for System Design preparation. This site pro
 
 # Components of a System
 Networking components
+
 Gateway
+
 Loadbalancer
+
 DNS
+
 CDN
 
 Communication Protocols
+
 HTTP
+
 REST
+
 WebSockets
+
 gRPC
+
 SignalR
 
 
 Storage components
+
 Cache
+
 Database
 
 Queueing system
 
 Algorithms and Techniques
+
 Compression
+
 Leader election
+
 Conflict resolution
 
 
