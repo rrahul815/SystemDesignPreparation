@@ -9,28 +9,28 @@ interviewing.io is a great resource for System Design preparation. This site pro
 
 
 # Components of a System
-Networking components
+## Networking components
 
-Gateway
+### Gateway
 
-Loadbalancer
+### Loadbalancer
 
-DNS
+### DNS
 
-CDN
+### CDN
 
-Communication Protocols
+### Communication Protocols
 
 Communcation protocols can be broadly divided into Synchronous and Asynchronous communication. In synchronous, the client waits for a response from the server. In asynchronous communication, the client sends a request to the server and does not wait for a response. The response can be received by the client in a variety of ways depending on the use case.
 The network components have multiple layers which are based on the OSI model, with the physical layer on the bottom and the application layer on the top. There are 7 layers, 1. physical layer, 2.data link layer 3. network layer 4. transport layer 5. session layer 6. presentation layer 7. application layer
 
-HTTP
+### HTTP
 HTTP stands for HyperText Transfer Protocol. There are multiple HTTP protocol versions. HTTP started with 0.9 and subsequent releases of 1.0 and 1.1. HTTP 1.1 is the most widely used protocol currently in 2025. The initial version 0.9 only had one method GET, 1.0 and 1.1 added more methods. The most common ones are POST, DELETE, PUT. There are others like PATCH, HEAD, CONNECT, TRACE and OPTIONS. HTTP 2.0 was released in 2015, having certain additional features on top of 1.1. They are primarily a) request multiplexing and prioritization b) automatic compression c) connection reset d) server push. HTTP 3.0 is an internet draft proposed in 2020. This version changes the underlying Transport layer from TCP to QUIC (Quick UDP Internet Connections). There will be no HTTPS/HTTP separation, but all connections will be encrypted by default.
 
-REST
+### REST
 REST protocol is implemented on top of HTTP and uses the existing methods of HTTP.
 
-WebSockets
+### WebSockets
 
 gRPC
 
