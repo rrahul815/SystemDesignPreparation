@@ -87,20 +87,29 @@ Likes on a video, and download
 
 ## Designing Slack
 What is Slack? Slack started as a simple communication tool at work, but has evolved into an integrated Work environment for collaboration. Website url: slack.com
+Slack has a workspace, where you can setup profile, message yourself. There are channels that a user can be part of and they are used for group communication. Audio and video attachments are also supported in addition to text. Slack in 2025 also supports AI agents, integrating with third party products like Salesforce, sharing and collaboration etc.
+Questions to ask interviewer?
+What would be the DAU? How many organizations? How many users per channel? How many channels? Audio/video support? Search functionality? Storing messages in a persistent storage? Notifications? Online presence? Will the users be geographically distributed? Will the load have peak usage or uniform distribution? What is the read:write ration? Multiple client like mobile, web, desktop app?
 
 ### Functional Requirements
 Send messages, files to other users
 Create channels to communicate as a group
-
+Send audio/video
+Persist messages and display in chronological order.
+Atmost once delivery.
+Show online presence.
 
 ### Non-functional Requirements
 Scalable
-Fault tolerant
+Fault tolerant - server failure, storage failure, network failure
 Low latency to receive messages
 consistency in the order of messages
 
 ### Out of scope
-Integrating AI and third party tools and applications
+Integrating AI and third party tools and applications.
+Likes comments.
+Notifications.
+User registration.
 
 ### Estimates
 Support milions of users and send and receive messages.
@@ -108,10 +117,15 @@ Store those messages, in case the user is offline.
 
 ### Data
 The main entites will be users,channels,messages
+user table will have user_id,name,details,organization
+channel table will have channel_id,user_id,name
+message table will have message_id,sender_id,receiver_id,content_link
+Actual messages will be persisted in a document store or a key/value table. The audio/video content can be stored in a blob or file store. 
 
 ### API
 API will be primarily used to sign up and authenticate a user. For bidirectional communication between users, API would not work.
-API to create user and login will be discussed in detail in other sections.
+API to create user and login will be discussed in detail in other sections. Websockets will be used to send messages. Media files will be uploaded via POST and the receiver can retrieve the media file using GET and the identifier provided in the message.
+Point to think - how will end-to-end encryption be supported?
 
 ### High level design
 The high level design involves, a user A sending a message to user B and receiving a response back. This message needs to be stored incase the user is not online to receive it.
@@ -119,3 +133,5 @@ The high level design involves, a user A sending a message to user B and receivi
 ![High level diagram of Slack](/diagrams/png/slack_github.excalidraw.png)
 
 # Document Links:
+
+[Formatting Links Github |https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax]
