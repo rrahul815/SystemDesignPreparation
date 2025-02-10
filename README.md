@@ -12,6 +12,17 @@ interviewing.io is a great resource for System Design preparation. This site pro
 ## Networking components
 
 ### Gateway
+What is a Gateway with respect to system design? Depending on the system scale as well as requirements, the gateway is used in a variety of ways.
+#### Uses of a Gateway
+1. Load balancer to services in the backend
+2. Request router
+3. Request throttling
+4. Logging and metrics
+5. Authentication
+6. Caching
+7. Request validation
+
+Let us deep dive into the uses listed above and how these affect the designed system.
 
 ### Loadbalancer
 
