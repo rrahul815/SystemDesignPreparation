@@ -143,6 +143,17 @@ The high level design involves, a user A sending a message to user B and receivi
 
 ![High level diagram of Slack](/diagrams/png/slack_github.excalidraw.png)
 
+## Design a document management system: This could involve handling versioning, access control, metadata, search, and integration with other systems.
+
+## Design a workflow engine: This could focus on defining, executing, and monitoring complex business processes, including approvals, notifications, and escalations.
+
+## Design a system for managing digital assets: This could involve handling various file types, metadata extraction, transformations, and delivery.
+
+## Design a secure file sharing system: This could emphasize encryption, access control, audit trails, and compliance with regulations.
+
+## Design a system for data migration: This could involve moving large volumes of data between different systems while ensuring data integrity and minimal downtime.
+
+
 # Document Links:
 
 [Formatting Links Github |https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax]
