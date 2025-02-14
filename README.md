@@ -26,6 +26,19 @@ Let us deep dive into the uses listed above and how these affect the designed sy
 
 ### Loadbalancer
 
+Traffic distribution algorithms
+
+Additional topics:
+
+Content switching
+Global load balancer
+Edge computing
+FireWall - OWASP
+Compression of data
+Different layers where the Loadbalancer can be placed.
+Direct Server Return in Loadbalancer
+Connection Table - 5 tuple table
+
 ### DNS
 
 ### CDN
