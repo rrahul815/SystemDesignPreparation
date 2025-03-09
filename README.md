@@ -160,7 +160,11 @@ The high level design involves, a user A sending a message to user B and receivi
 
 ## Design a workflow engine: This could focus on defining, executing, and monitoring complex business processes, including approvals, notifications, and escalations.
 
-## Design a system for managing digital assets: This could involve handling various file types, metadata extraction, transformations, and delivery.
+## Design a system for managing digital assets
+This could involve handling various file types, metadata extraction, transformations, and delivery. 
+Metadata extraction from digital assets
+Transform digital assets
+Delivery 
 
 ## Design a secure file sharing system: This could emphasize encryption, access control, audit trails, and compliance with regulations.
 
